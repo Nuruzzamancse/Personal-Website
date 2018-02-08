@@ -1,0 +1,148 @@
+.responsive{
+    width: 100%;
+    height: 340vh;
+    background-image: url('wallpaper.jpg');
+    border: 0px solid red;
+    margin: 0 auto;
+}
+    .first{
+        height: 5%;
+        width: 75%;
+        margin: 0 auto;
+        border: 0px solid blue;
+        box-shadow: 2px 2px 2px 2px #D81515;
+    }
+        .first_left{
+            height: 100%;
+            width: 40%;
+            margin: 0 auto;
+            float: left;
+
+        }
+        .first_right{
+            height: 100%;
+            width: 40%;
+            margin: 0 auto;
+            float: right;
+
+        }
+    .second{
+        height: 26%;
+        width: 75%;
+        margin: 0px auto;
+        border: 0px solid blue;
+        box-shadow: 2px 2px 2px 2px #D81515;
+    }
+        .Photo_Album{
+            height: 90%;
+            width: 100%;
+            margin-top: 1%;
+            margin-left: 1%;
+            
+        }
+            .Photo_Album_left{
+                height: 100%;
+                width: 49%;
+                
+                margin: 0 auto;
+                float: left;
+            }
+                .Photo_Album_left_upper{
+                    height: 33%;
+                    width: 100%;
+                    box-shadow: 2px 2px 2px 2px #6BDA10;
+                    margin: 0 auto;
+                    float: left;
+                }
+                .Photo_Album_left_middle{
+                    height: 33%;
+                    width: 100%;
+                    box-shadow: 2px 2px 2px 2px #2215D8;
+                    margin: 0 auto;
+                    float: left;
+                }
+                .Photo_Album_left_lower{
+                    height: 33%;
+                    width: 100%;
+                    box-shadow: 2px 2px 2px 2px #E09090;
+                    margin: 0 auto;
+                    float: left;
+                }
+            .Photo_Album_right{
+                height: 100%;
+                width: 49%;
+                border: 0px solid green;
+                margin: 0 auto;
+                float: left;
+            }
+
+    .Personal_Information{
+        height: 37%;
+        width: 75%;
+        margin: 0 auto;
+        border: 1px solid blue;
+        margin-top:1%;
+    }
+    .interests{
+        height: 6%;
+        width: 75%;
+        margin: 0 auto;
+        border: 1px solid blue;
+        margin-top:1%;
+    }
+    .links{
+        height: 12%;
+        width: 75%;
+        margin: 0 auto;
+        border: 1px solid blue;
+        margin-top: .5%;
+    }
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        
+    }
+    
+    li {
+        float: left;
+       
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 15px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #111;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    th, td {
+        text-align: left;
+        color: white;
+        padding: 8px;
+    }
+    
+    tr:nth-child(even){background-color: #1575E2;opacity: .8}
+    tr:nth-child(odd){background-color: #4613BD}
+    
+    
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+
