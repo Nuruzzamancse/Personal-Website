@@ -97,6 +97,24 @@
         border: 1px solid blue;
         margin-top: .5%;
     }
+        .link_left{
+            width: 40%;
+            height: 30%;
+            float: left;
+            margin: 0 auto;
+            margin-left: 2.5%;
+            margin-top: 3%;
+            
+            
+        }
+        .link_right{
+            width: 40%;
+            height: 65%;
+            margin: 0 auto;
+            float:right;
+            
+            
+        }
 
 
     ul {
